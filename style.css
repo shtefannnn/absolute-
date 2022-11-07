@@ -169,6 +169,7 @@ color:  #ABABAB;
 .card-3{
     display: flex;
     flex-direction: row;
+    /* min-width: 1225px; */
 }
 
 .item-3{
@@ -178,8 +179,8 @@ color:  #ABABAB;
     background-color: #FFF6D5;
     border-radius: 8px;
     padding: 64px 32px 40px 32px;
-    margin: auto;
     position: relative;
+    margin-right: 32px;
 }
 
 
@@ -205,8 +206,8 @@ color:  #ABABAB;
     background-color: #EBDCF9;;
     border-radius: 8px;
     padding: 64px 32px 40px 32px;
-    margin: auto;
     position: relative;
+    margin-right: 32px;
 }
 
 
@@ -232,8 +233,8 @@ color:  #ABABAB;
     background-color: #DDF5FD;;
     border-radius: 8px;
     padding: 64px 32px 40px 32px;
-    margin: auto;
     position: relative;
+    margin-right: 32px;
 }
 
 
@@ -259,7 +260,6 @@ color:  #ABABAB;
     background-color: #DCF6E8;;
     border-radius: 8px;
     padding: 64px 32px 40px 32px;
-    margin: auto;
     position: relative;
 }
 
