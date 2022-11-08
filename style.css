@@ -78,7 +78,7 @@
 }
 
 .body{
-    min-width: 364px;
+    max-width: 364px;
     margin-top: 120px;
 }
 
@@ -132,6 +132,16 @@ color:  #ABABAB;
     justify-content: space-around;
 }
 
+.img-icon{
+    min-width: 78px;
+    min-height: 78px;
+}
+
+.icon{
+    width: 78px;
+    height: 78px;
+}
+
 .online-status{
     width: 16px;
     height: 16px;
@@ -169,7 +179,7 @@ color:  #ABABAB;
 .card-3{
     display: flex;
     flex-direction: row;
-    /* min-width: 1225px; */
+    flex-wrap: wrap;
 }
 
 .item-3{
