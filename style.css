@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+.conteiner{
+    padding: 80px 172px;
+    border-bottom: 1px solid black;
+}
+
+.header{
+    margin-bottom: 24px;
+}
+
+
+.title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #2D1C1C;
+}
+
+.subtitle{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ABABAB;
+}
+
+.main{
+    position: relative;
+}
+
+.card-img{
+    width: 62px;
+    height: 62px;
+    position: absolute;
+}
+
+.card-img:nth-child(1){
+    z-index: 1;
+    left: 0px;
+}
+
+.card-img:nth-child(2){
+    z-index: 2;
+    left: 50px;
+}
+
+.card-img:nth-child(3){
+    z-index: 3;
+    left: 100px;
+}
+
+.card-img:nth-child(4){
+    z-index: 4;
+    left: 150px;
+}
+
+.card-img:nth-child(5){
+    z-index: 5;
+    left: 200px;
+}
+
+.card-text{
+    position: absolute;
+    left: 267px;
+    top: 23px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ABABAB;
+}
+
+.body{
+    max-width: 364px;
+    margin-top: 120px;
+}
+
+.text-body{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color:  #2D1C1C;
+}
+
+.text-body-2{
+    max-width: 400px;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    color:  #ABABAB;
+}
+
+.text-body-3{
+    max-width: 364px;
+margin-top: 8px;
+font-weight: 400;
+font-size: 16px;
+line-height: 25.6px;
+color:  #ABABAB;
+}
+
+.option-2{
+    padding: 80px 172px;
+    border-bottom: 1px solid black;
+}
+
+.title-2{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 48px;
+}
+
+.card-2{
+    max-width: 536px;
+    width: 100%;
+    text-align: center;
+}
+
+.list-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img-icon{
+    min-width: 78px;
+    min-height: 78px;
+}
+
+.icon{
+    width: 78px;
+    height: 78px;
+}
+
+.online-status{
+    width: 16px;
+    height: 16px;
+    background-color: #71E05F;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    position: relative;
+    left: 57px;
+    bottom: 23px;
+}
+
+.offline-status{
+    width: 16px;
+    height: 16px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    border: 1px solid #71E05F;
+    position: relative;
+    left: 57px;
+    bottom: 23px;
+}
+
+.item-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #1F6A61;
+}
+
+
+.option-3{
+    padding: 48px 59px;
+}
+
+.card-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item-3{
+    max-width: 253px;
+    width: 100%;
+    min-height: 232px;
+    background-color: #FFF6D5;
+    border-radius: 8px;
+    padding: 64px 32px 40px 32px;
+    position: relative;
+    margin-right: 32px;
+}
+
+
+.card3-title{
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 21.34px;
+   color: #000000;
+   margin-bottom: 24px;
+}
+
+.card3-subtitle{
+    font-weight: 500;
+    font-size: 16px;
+    color: #746E8C;
+}
+
+
+.item-4{
+    max-width: 253px;
+    width: 100%;
+    min-height: 232px;
+    background-color: #EBDCF9;;
+    border-radius: 8px;
+    padding: 64px 32px 40px 32px;
+    position: relative;
+    margin-right: 32px;
+}
+
+
+.card4-title{
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 21.34px;
+   color: #000000;
+   margin-bottom: 24px;
+}
+
+.card4-subtitle{
+    font-weight: 500;
+    font-size: 16px;
+    color: #746E8C;
+}
+
+
+.item-5{
+    max-width: 253px;
+    width: 100%;
+    min-height: 232px;
+    background-color: #DDF5FD;;
+    border-radius: 8px;
+    padding: 64px 32px 40px 32px;
+    position: relative;
+    margin-right: 32px;
+}
+
+
+.card5-title{
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 21.34px;
+   color: #000000;
+   margin-bottom: 24px;
+}
+
+.card5-subtitle{
+    font-weight: 500;
+    font-size: 16px;
+    color: #746E8C;
+}
+
+
+.item-6{
+    max-width: 253px;
+    width: 100%;
+    min-height: 232px;
+    background-color: #DCF6E8;;
+    border-radius: 8px;
+    padding: 64px 32px 40px 32px;
+    position: relative;
+}
+
+
+.card6-title{
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 21.34px;
+   color: #000000;
+   margin-bottom: 24px;
+}
+
+.card6-subtitle{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #746E8C;
+}
+
+
+.icon-option3{
+ position: absolute;
+ top: -19px; 
+}
